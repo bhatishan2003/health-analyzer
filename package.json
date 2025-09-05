@@ -1,15 +1,14 @@
 {
-  "name": "health-analyzer",
+  "name": "health_analyzer",
   "version": "1.0.0",
-  "description": "Simple BMI health analyzer web app",
+  "description": "BMI and Health Analysis Tool",
+  "main": "js/script.js",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test": "jest"
   },
   "devDependencies": {
     "jest": "^29.7.0"
   },
-  "main": "healthutils.js",
   "keywords": [],
   "author": "",
   "license": "ISC"
