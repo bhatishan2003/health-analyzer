@@ -1,4 +1,4 @@
-const { calculateBMI, categorizeBMI } = require("./healthutils");
+const { calculateBMI, categorizeBMI } = require("../src/healthutils");
 
 // BMI Calculation Tests
 test("BMI calculation works correctly", () => {
