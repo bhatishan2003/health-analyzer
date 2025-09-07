@@ -1,6 +1,7 @@
 # Health Analyzer 🏥
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://bhatishan2003.github.io/health-analyzer)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/bhatishan2003/health-analyzer/main.yml?branch=main&style=flat-square)](https://github.com/bhatishan2003/health-analyzer/actions)
 [![Coverage Status](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/bhatishan2003/health_analyzer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
