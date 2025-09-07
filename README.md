@@ -1,5 +1,8 @@
 # Health Analyzer 🏥
 
+[![npm version](https://img.shields.io/npm/v/health-analyzer?style=flat-square)](https://www.npmjs.com/package/health-analyzer)[![Coverage Status](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/bhatishan2003/health_analyzer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A simple web application to calculate and analyze your Body Mass Index (BMI).
 
 ## Features ✨
@@ -12,7 +15,7 @@ A simple web application to calculate and analyze your Body Mass Index (BMI).
 
 ## Live Demo 🌐
 
-[Try Health Analyzer](https://bhatishan2003.github.io/health_analyzer)
+[Try Health Analyzer](https://bhatishan2003.github.io/health-analyzer)
 
 ## Quick Start 🚀
 
@@ -29,6 +32,12 @@ npm install
 
 # Run tests
 npm test
+
+# Run test coverage
+npm run test:coverage
+
+# Start development server
+npm start
 ```
 
 ## Tech Stack 🛠️
@@ -42,9 +51,17 @@ npm test
 
 ```
 health_analyzer/
-├── index.html      # Main HTML file
-├── styles.css      # Styling
-├── healthutils.js  # Core logic
-├── main.js        # UI interactions
-└── test_cases.test.js
+├── src/
+│   ├── healthutils.js
+│   └── script.js
+├── css/
+│   └── style.css
+├── tests/
+│   └── test_cases.test.js
+├── images/
+│   └── background.jpg
+├── index.html
+├── package.json
+├── jest.config.js
+└── README.md
 ```
