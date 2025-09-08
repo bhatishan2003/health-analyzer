@@ -73,3 +73,22 @@ function analyzeHealth() {
     <p><strong>Age-Based Tip:</strong> ${ageAdvice}</p>
   `;
 }
+
+function toggleTheme() {
+  const body = document.body;
+  const button = document.getElementById("themeSwitch");
+
+  if (body.classList.contains("dark-theme")) {
+    body.classList.remove("dark-theme");
+    button.textContent = "🌙 Dark Mode";
+  } else {
+    body.classList.add("dark-theme");
+    button.textContent = "☀️ Light Mode";
+  }
+}
+
+// Add event listener when the document loads
+document.addEventListener("DOMContentLoaded", () => {
+  const themeSwitch = document.getElementById("themeSwitch");
+  themeSwitch.addEventListener("click", toggleTheme);
+});
